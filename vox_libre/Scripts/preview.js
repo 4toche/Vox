@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         btnPublicar.textContent = "Publicar";
       }
     } catch (err) {
-      alert("Error de conexión con el servidor.");
+      alert("Esto es una prueba no se guarda nada. Mantente atento a la actualizaciones");
       console.error(err);
       btnPublicar.disabled = false;
       btnPublicar.textContent = "Publicar";
